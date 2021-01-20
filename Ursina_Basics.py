@@ -25,10 +25,12 @@ class Test_Cube(Entity):
 class Test_Button(Button):
     def __init__(self):
         super().__init__(
-            parent = scene,
+            parent=scene,
             model="cube",
             texture="brick",
-            color=color.blue
+            color=color.blue,
+            highlight_color=color.red,
+            pressed_color=color.lime
         )
 
 
