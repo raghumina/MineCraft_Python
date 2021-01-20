@@ -13,11 +13,14 @@ app = Ursina()  # created an instance named app
 
 # we have to create an entity
 # in Ursina entity's are like building blocks of game they can be anything for example
-# Squares, Boxes, Sounds,
+# Squares, Boxes, Sounds, Circles and Various shapes.
 # We can create them according to our need and can modify them also.
 
+# Lets create them
+test_square = Entity(model="cube", color=color.green, scale=(1, 4),
+                     position=(5, 4))  # scale is used for  positioning of entitiy on game window.
+# Here we use model to define shapes.
 
 
 app.run()  # ran it
 # by running app we can see the game board or window and frames.
-
