@@ -8,14 +8,21 @@
 
 from ursina import *  #
 
-
+# to create a cube for game we need to create a class for it as it haves all control regarding it.
 class Test_Cube(Entity):
     def __init__(self):
         super().__init__(
             model='cube',
             color=color.white,
-            texture='cube'
+            texture='cube',
+            rotation=Vec3(45, 45, 45)
         )
+
+# Creating a class for button
+
+class Test_Button(Button):
+    def 
+
 
 
 def update():
