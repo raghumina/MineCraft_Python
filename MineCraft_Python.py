@@ -26,6 +26,11 @@ test_square = Entity(model="cube", color=color.green, scale=(1, 4),
                      position=(5, 4))  # scale is used for  positioning of entitiy on game window.
 # Here we use model to define shapes.
 
+# to add texture or png in our game
+sans_texture = load_texture("C:\\workspace\\Python_minecraft\\MineCraft_Python\\mino.png")
+sans = Entity(mode = "quad", texture = sans_texture)
+
+
 
 app.run()  # ran it
 # by running app we can see the game board or window and frames.
