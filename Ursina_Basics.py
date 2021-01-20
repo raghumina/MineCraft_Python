@@ -1,4 +1,4 @@
-# A sample MineCraft game
+# Basics of Ursina and game development form it
 
 # Modules used Ursina,
 
