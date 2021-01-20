@@ -8,10 +8,10 @@ from ursina import *
 # Minecraft is a Voxel based game
 # Voxel are
 class Voxel(Button):
-    def __init__(self):
+    def __init__(self, position = (0,0,0)):
         super().__init__(
             parent=scene,
-            position=(0, 0, 0),
+            position= position,
             model='cube',
             origin_y=0.5,
             texture='white_cube',
@@ -23,6 +23,6 @@ class Voxel(Button):
 app = Ursina()
 for x in range(8):  # creating buttons here
     for z in range(8):
-        voxel = Voxel()
-        
+        voxel = Voxel(position = (x,0,z))
+
 app.run()
