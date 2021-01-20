@@ -8,6 +8,7 @@
 
 from ursina import *  #
 
+
 # to create a cube for game we need to create a class for it as it haves all control regarding it.
 class Test_Cube(Entity):
     def __init__(self):
@@ -18,11 +19,17 @@ class Test_Cube(Entity):
             rotation=Vec3(45, 45, 45)
         )
 
+
 # Creating a class for button
 
 class Test_Button(Button):
-    def 
-
+    def __init__(self):
+        super().__init__(
+            parent = scene,
+            model="cube",
+            texture="brick",
+            color=color.blue
+        )
 
 
 def update():
@@ -47,7 +54,7 @@ test_square = Entity(model="cube", color=color.green, scale=(1, 4),
 sans_texture = load_texture("mino.png")
 sans = Entity(mode="quad", texture=sans_texture)
 
-test_cube = Test_Cube()
+test_cube = Test_Button()
 
 app.run()  # ran it
 # by running app we can see the game board or window and frames.
