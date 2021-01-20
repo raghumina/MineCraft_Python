@@ -1,2 +1,2 @@
 # MineCraft_Python
- MineCraft game using Python
+ MineCraft game in Python using Ursina module.
