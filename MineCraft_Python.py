@@ -8,9 +8,19 @@
 
 from ursina import *  #
 
+
+class Test_Cube(Entity):
+    def __init__(self):
+        super().__init__(
+            model='cube',
+            color=color.white,
+            texture='cube'
+        )
+
+
 def update():
     if held_keys['a']:  # to apply key control on game any key on keyword can be used.
-        test_square.x -=4 * time.dt   # time to control the movement of entities and window according to our requirements.
+        test_square.x -= 4 * time.dt  # time to control the movement of entities and window according to our requirements.
 
 
 # we have to create an instance for the game for example board
@@ -27,10 +37,10 @@ test_square = Entity(model="cube", color=color.green, scale=(1, 4),
 # Here we use model to define shapes.
 
 # to add texture or png in our game
-sans_texture = load_texture("C:\\workspace\\Python_minecraft\\MineCraft_Python\\mino.png")
-sans = Entity(mode = "quad", texture = sans_texture)
+sans_texture = load_texture("mino.png")
+sans = Entity(mode="quad", texture=sans_texture)
 
-
+test_cube = Test_Cube()
 
 app.run()  # ran it
 # by running app we can see the game board or window and frames.
