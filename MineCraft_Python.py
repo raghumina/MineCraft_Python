@@ -8,6 +8,11 @@
 
 from ursina import *  #
 
+def update():
+    if held_keys['a']:  # to apply key control on game any key on keyword can be used.
+        test_square.x -=4 * time.dt   # time to control the movement of entities and window according to our requirements.
+
+
 # we have to create an instance for the game for example board
 app = Ursina()  # created an instance named app
 
