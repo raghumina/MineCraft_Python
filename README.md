@@ -12,6 +12,13 @@ Minecraft is a 3D survival sandbox game developed and published by Mojang. It wa
  
  # SnapShots of Source Code and Gameplay:
  
- # Source Code
  
+ # Source Code
+ Screenshot1
+ ![Screenshot (180)](https://user-images.githubusercontent.com/31153225/106036177-f9903480-60fa-11eb-840b-c1946b92d62b.png)
  # GamePlay
+ Screenshot2
+![Screenshot (181)](https://user-images.githubusercontent.com/31153225/106036230-0c0a6e00-60fb-11eb-8cc4-d7bebe34b504.png)
+Screenshot3
+![Screenshot (182)](https://user-images.githubusercontent.com/31153225/106036292-25abb580-60fb-11eb-9e08-369cd0666ad1.png)
+
